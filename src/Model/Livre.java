@@ -61,7 +61,7 @@ public class Livre {
             return false;
         }
         final Livre other = (Livre) obj;
-        if( (!Objects.equals(this.titre_livre, other.titre_livre))&&(!Objects.equals(this.langue, other.langue))&& (!Objects.equals(this.editeur, other.editeur)) ){
+        if( (!Objects.equals(this.titre_livre, other.titre_livre))||(!Objects.equals(this.langue, other.langue))|| (!Objects.equals(this.editeur, other.editeur)) ){
             return false;
         }
     

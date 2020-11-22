@@ -1,65 +1,74 @@
 package Model;
 
-import java.util.Date;
+
+import java.util.HashSet;
 
 public class Commande {
 
-    private int id_com;
-    private Date date_com;
-    private int totale;
-    private String livraison;
+     HashSet<Livre> listesLivres;
 
-    public Commande() {
-    }
-
-    public Commande(int id_com, Date date_com, int totale, String livraison) {
+    public Commande(int id_client, int id_com, String date_com, int livraison) {
+        this.id_client = id_client;
         this.id_com = id_com;
         this.date_com = date_com;
-        this.totale = totale;
         this.livraison = livraison;
     }
 
-    public Commande(Date date_com, int totale, String livraison) {
+    public Commande(int id_client, String date_com, int livraison) {
+        this.id_client = id_client;
         this.date_com = date_com;
-        this.totale = totale;
         this.livraison = livraison;
+    }
+
+    private int id_client;
+    private int id_com;
+    private String date_com;
+    private int livraison;
+
+    public Commande()
+    {
+    }
+
+    public int getId_client() {
+        return id_client;
     }
 
     public int getId_com() {
         return id_com;
     }
 
+    public String getDate_com() {
+        return date_com;
+    }
+
+    public int getLivraison() {
+        return livraison;
+    }
+
+    public void setId_client(int id_client) {
+        this.id_client = id_client;
+    }
+
     public void setId_com(int id_com) {
         this.id_com = id_com;
     }
 
-    public Date getDate_com() {
-        return date_com;
-    }
-
-    public void setDate_com(Date date_com) {
+    public void setDate_com(String date_com) {
         this.date_com = date_com;
     }
 
-    public int getTotale() {
-        return totale;
-    }
-
-    public void setTotale(int totale) {
-        this.totale = totale;
-    }
-
-    public String getLivraison() {
-        return livraison;
-    }
-
-    public void setLivraison(String livraison) {
+    public void setLivraison(int livraison) {
         this.livraison = livraison;
     }
 
     @Override
     public String toString() {
-        return "Commande{" + "id_com=" + id_com + ", date_com=" + date_com + ", totale=" + totale + ", livraison=" + livraison + '}';
+        return "Commande{" +
+                ", id_com=" + id_com +
+                "id_client=" + id_client +
+                ", date_com='" + date_com + '\'' +
+                ", livraison=" + livraison +
+                '}';
     }
 
 

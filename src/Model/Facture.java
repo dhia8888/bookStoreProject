@@ -1,54 +1,75 @@
 package Model;
 
-import java.util.Date;
+
 
 public class Facture {
-    private int id_fact;
-    private Date date;
-    private int montant;
+   private int id;
 
-    public Facture() {
-    }
+    private String date_fact;
 
-    public Facture(int id_fact, Date date, int montant) {
-        this.id_fact = id_fact;
-        this.date = date;
+    private float montant;
+
+    public Facture(String date_fact, float montant, int commande_id) {
+        this.date_fact = date_fact;
         this.montant = montant;
+        this.commande_id = commande_id;
     }
 
-    public Facture(Date date, int montant) {
-        this.date = date;
+    public Facture(int id, String date_fact, float montant, int commande_id) {
+        this.id = id;
+        this.date_fact = date_fact;
         this.montant = montant;
-    }
-
-    public int getId_fact() {
-        return id_fact;
-    }
-
-    public void setId_fact(int id_fact) {
-        this.id_fact = id_fact;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public int getMontant() {
-        return montant;
-    }
-
-    public void setMontant(int montant) {
-        this.montant = montant;
+        this.commande_id = commande_id;
     }
 
     @Override
     public String toString() {
-        return "Facture{" + "id_fact=" + id_fact + ", date=" + date + ", montant=" + montant + '}';
+        return "Facture{" +
+                "id=" + id +
+                ", date_fact='" + date_fact + '\'' +
+                ", montant=" + montant +
+                ", commande_id=" + commande_id +
+                '}';
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Facture ()
+    {
+
+    }
+
+    public void setDate_fact(String date_fact) {
+        this.date_fact = date_fact;
+    }
+
+    public void setMontant(float montant) {
+        this.montant = montant;
+    }
+
+    public void setCommande_id(int commande_id) {
+        this.commande_id = commande_id;
+    }
+
+    private int commande_id;
+
+
+    public int getId() {
+        return id;
+    }
+
+    public String getDate_fact() {
+        return date_fact;
+    }
+
+    public float getMontant() {
+        return montant;
+    }
+
+    public int getCommande_id() {
+        return commande_id;
+    }
 
 }
