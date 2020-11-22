@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : Dim 22 nov. 2020 à 20:15
+-- Généré le : Dim 22 nov. 2020 à 22:51
 -- Version du serveur :  10.4.16-MariaDB
 -- Version de PHP : 7.4.12
 
@@ -68,6 +68,13 @@ CREATE TABLE `commande` (
   `client_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Déchargement des données de la table `commande`
+--
+
+INSERT INTO `commande` (`id`, `date_com`, `livraison`, `client_id`) VALUES
+(15, '22/11/2020', 0, 3);
+
 -- --------------------------------------------------------
 
 --
@@ -100,6 +107,13 @@ CREATE TABLE `facture` (
   `commande_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Déchargement des données de la table `facture`
+--
+
+INSERT INTO `facture` (`id`, `date_fact`, `montant`, `commande_id`) VALUES
+(4, '22/11/2021', 130, 15);
+
 -- --------------------------------------------------------
 
 --
@@ -113,6 +127,14 @@ CREATE TABLE `feedback` (
   `id_user` int(11) NOT NULL,
   `livre_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Déchargement des données de la table `feedback`
+--
+
+INSERT INTO `feedback` (`id`, `nb_etoile`, `commentaire`, `id_user`, `livre_id`) VALUES
+(2, 4, 'waw', 3, 3),
+(3, 5, 'beau', 3, 2);
 
 -- --------------------------------------------------------
 
@@ -167,6 +189,13 @@ CREATE TABLE `ligne_commande` (
   `livre_id` int(11) NOT NULL,
   `quantite` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `ligne_commande`
+--
+
+INSERT INTO `ligne_commande` (`commande_id`, `livre_id`, `quantite`) VALUES
+(15, 2, 2);
 
 -- --------------------------------------------------------
 
@@ -226,6 +255,15 @@ CREATE TABLE `notification` (
   `vu` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Déchargement des données de la table `notification`
+--
+
+INSERT INTO `notification` (`id`, `type`, `message`, `vu`) VALUES
+(6, 'Nouvelle commande', 'Une nouvelle commande a été ajoutée', 1),
+(7, 'Nouvelle commande', 'Une nouvelle commande a été ajoutée', 1),
+(8, 'Nouvelle commande', 'Une nouvelle commande a été ajoutée', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -240,6 +278,13 @@ CREATE TABLE `panier` (
   `client_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Déchargement des données de la table `panier`
+--
+
+INSERT INTO `panier` (`id`, `nbrArticle`, `total`, `commande_id`, `client_id`) VALUES
+(6, 7, 347, 15, 3);
+
 -- --------------------------------------------------------
 
 --
@@ -251,14 +296,23 @@ CREATE TABLE `user` (
   `nom` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `prenom` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `username` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `adresse` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `role` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `numinscrit` int(11) DEFAULT NULL,
   `immatriculation` varchar(342) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `rib` varchar(342) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `salaire` double DEFAULT NULL
+  `salaire` double DEFAULT NULL,
+  `matricule` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Déchargement des données de la table `user`
+--
+
+INSERT INTO `user` (`id`, `nom`, `prenom`, `username`, `password`, `email`, `adresse`, `role`, `numinscrit`, `immatriculation`, `rib`, `salaire`, `matricule`) VALUES
+(3, 'Dhaouadi', 'Amyne', 'AmyneDh', '0000', 'AmyneDhaouadi@esprit.tn', 'Ferryville', 'Membre', 111, NULL, NULL, NULL, '');
 
 --
 -- Index pour les tables déchargées
@@ -380,7 +434,7 @@ ALTER TABLE `click`
 -- AUTO_INCREMENT pour la table `commande`
 --
 ALTER TABLE `commande`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT pour la table `edition`
@@ -392,13 +446,13 @@ ALTER TABLE `edition`
 -- AUTO_INCREMENT pour la table `facture`
 --
 ALTER TABLE `facture`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT pour la table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT pour la table `genre`
@@ -416,19 +470,19 @@ ALTER TABLE `livre`
 -- AUTO_INCREMENT pour la table `notification`
 --
 ALTER TABLE `notification`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT pour la table `panier`
 --
 ALTER TABLE `panier`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Contraintes pour les tables déchargées

@@ -6,10 +6,13 @@ import Model.Edition;
 import Model.Facture;
 import Model.Genre;
 import Model.Livre;
+import Model.Notification;
 import Model.Panier;
 import Services.CommandeService;
 import Services.FactureService;
+import Services.FeedbackService;
 import Services.LivreServices;
+import Services.NotificationService;
 import Services.PanierService;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -64,8 +67,8 @@ public class main {
 //        }
 
 
-        CommandeService ser_com = new CommandeService();
-        Commande c =new Commande(3, "22/11/2020", 0);
+//        CommandeService ser_com = new CommandeService();
+//        Commande c =new Commande(3, "22/11/2020", 0);
 //        try{
 //            ser_com.addCommande(c,2,2);
 //        }
@@ -106,42 +109,36 @@ public class main {
 
 
 
-       /*
-        try
-        {
-            ligne_commande ligne_commande = new ligne_commande(1, 1, 23);
+        
+           
 
-            service_ligne_commande service_ligne_commande = new service_ligne_commande();
-
-            service_ligne_commande.add(ligne_commande);
-
-        }catch (Exception e)
-        {
-            System.out.println("Exception");
-        }
-
-        */
-        //  Panier p = new Panier(2, 34f, 2, 1);
-        //  service_panier service_panier = new service_panier();
-        //  service_panier.addPanier(p);
-
-        /*
+     NotificationService sn = new  NotificationService();
+        FeedbackService fn= new FeedbackService ();
         try {
+            Notification n =new Notification("Nouvelle commande", "Une nouvelle commande a été ajoutée",0);
+           
+            //sn.addNotification(n);
+//            System.out.println(sn.getNotifications());
 
-            Facture facture = new Facture("12/12/1234",344f,2);
-
-            service_Facture service_facture = new service_Facture();
-
-          //  service_facture.addFacture(facture);
-
-
-            service_facture.deleteFacture(2);
-
-        }catch (Exception e)
-        {
-
+////           sn.addNotification(new Notification ("Nouveau gérant", "Un nouveau gérant a été ajouté",0));
+//                  sn.deleteNotification(5);
+//            sn.deleteNotification(4);
+//            System.out.println(sn.getNotifications());
+//            Notification n = new Notification("Nouvelle facture", "Une nouvelle  facture a été ajoutée",0);
+//            sn.addNotification(n);
+//            System.out.println(sn.getNotifications());
+             // n.setVu(1);
+             // n.setId_notif(7);
+             //   sn.updateNotification(n);
+             
+//             System.out.println(fn.getFeedbacksByUser(1));
+           // System.out.println(sn.getNotificationWithNoView());
+           // System.out.println(fn.getFeedbacks());
+           // System.out.println(fn.getFeedbacksByUser(3));
+            System.out.println(fn.getFeedbacksByBook(2));
+        } catch (SQLException e) {
             System.out.println("Exception");
-        }*/
     }
+}
 }
 
