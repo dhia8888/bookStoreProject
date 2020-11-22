@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
+<<<<<<< HEAD:bookstore-5.sql
 -- Généré le : Dim 22 nov. 2020 à 22:51
+=======
+-- Généré le : Dim 22 nov. 2020 à 23:47
+>>>>>>> feature5:bookstore-6.sql
 -- Version du serveur :  10.4.16-MariaDB
 -- Version de PHP : 7.4.12
 
@@ -304,7 +308,11 @@ CREATE TABLE `user` (
   `immatriculation` varchar(342) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `rib` varchar(342) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `salaire` double DEFAULT NULL,
+<<<<<<< HEAD:bookstore-5.sql
   `matricule` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL
+=======
+  `matricule` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+>>>>>>> feature5:bookstore-6.sql
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
@@ -312,7 +320,15 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nom`, `prenom`, `username`, `password`, `email`, `adresse`, `role`, `numinscrit`, `immatriculation`, `rib`, `salaire`, `matricule`) VALUES
+<<<<<<< HEAD:bookstore-5.sql
 (3, 'Dhaouadi', 'Amyne', 'AmyneDh', '0000', 'AmyneDhaouadi@esprit.tn', 'Ferryville', 'Membre', 111, NULL, NULL, NULL, '');
+=======
+(3, 'Dhaouadi', 'Amyne', 'AmyneDh', '0000', 'AmyneDhaouadi@esprit.tn', 'Ferryville', 'Membre', 111, NULL, NULL, NULL, ''),
+(5, 'dh', 'amine', 'hammadi', '', 'password', 'ferryville@g.com', 'Admin', NULL, '123', NULL, NULL, NULL),
+(6, 'ah', 'ahmed', 'ben ahmed', '', 'password', 'bizerte@g.com', 'Admin', NULL, '124', NULL, NULL, NULL),
+(7, 'BGH', 'Med', 'Medbgh', '1423', 'mbgh@gmail.com', 'Bizerte', 'Membre', 111, NULL, NULL, NULL, NULL),
+(8, 'Abidi', 'Temim', 'TemimB', '789', 'AbidiT@gmail.com', 'Ghazela', 'Gerant', NULL, NULL, '78945611223', 450, 'azerdj');
+>>>>>>> feature5:bookstore-6.sql
 
 --
 -- Index pour les tables déchargées
@@ -482,7 +498,11 @@ ALTER TABLE `panier`
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
+<<<<<<< HEAD:bookstore-5.sql
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+>>>>>>> feature5:bookstore-6.sql
 
 --
 -- Contraintes pour les tables déchargées

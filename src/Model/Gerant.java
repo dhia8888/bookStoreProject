@@ -2,7 +2,7 @@ package Model;
 
 public class Gerant extends User{
 
-    private int rib;
+    private String rib;
     private String matricule;
     private double salaire;
 
@@ -10,31 +10,39 @@ public class Gerant extends User{
         super();
     }
 
-    public Gerant(int id, String nom, String prenom, String username, String email, String adresse,
-                  String role,int rib,String matricule,double salaire) {
-        super(id, nom, prenom, username, email, adresse, role);
+    public Gerant(int id, String nom, String prenom, String username, String password, String email,
+                  String adresse, String role, String rib,double salaire, String matricule) {
+        super(id, nom, prenom, username, email, adresse, role, password);
         this.rib=rib;
         this.matricule=matricule;
         this.salaire=salaire;
 
     }
-    public Gerant(String nom, String prenom, String username, String email, String adresse,
-                  String role,int rib,String matricule,double salaire) {
-        super(nom, prenom, username, email, adresse, role);
+    public Gerant(String nom, String prenom, String username, String password, String email,
+            String adresse, String role, String rib,double salaire, String matricule) {
+        super(nom, prenom, username, email, adresse, role, password);
         this.rib=rib;
         this.matricule=matricule;
         this.salaire=salaire;
     }
 
-    public int getRib() {
-        return rib;
-    }
+    
 
-    public void setRib(int rib) {
-        this.rib = rib;
-    }
+    /**
+	 * @return the rib
+	 */
+	public String getRib() {
+		return rib;
+	}
 
-    public String getMatricule() {
+	/**
+	 * @param rib the rib to set
+	 */
+	public void setRib(String rib) {
+		this.rib = rib;
+	}
+
+	public String getMatricule() {
         return matricule;
     }
 
@@ -49,6 +57,4 @@ public class Gerant extends User{
     public void setSalaire(double salaire) {
         this.salaire = salaire;
     }
-
-
 }

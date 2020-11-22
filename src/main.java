@@ -5,15 +5,19 @@ import Model.Commande;
 import Model.Edition;
 import Model.Facture;
 import Model.Genre;
+import Model.Gerant;
 import Model.Livre;
+import Model.Membre;
 import Model.Notification;
 import Model.Panier;
+import Model.Proprietaire;
 import Services.CommandeService;
 import Services.FactureService;
 import Services.FeedbackService;
 import Services.LivreServices;
 import Services.NotificationService;
 import Services.PanierService;
+import Services.UserService;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.time.LocalDate;
@@ -23,6 +27,7 @@ import java.util.HashSet;
 public class main {
 
     public static void main(String[] args) {
+        
        
 //       Livre l = new Livre("You", "Anglais","iot",102, 34, "2020", 180.0);
 //       //l.setId_livre(1);
@@ -111,12 +116,16 @@ public class main {
 
         
            
+        
+        Proprietaire p2 = new Proprietaire ("ah","ahmed","ben ahmed","password","bizerte@g.com","bizerte","","124");
+    	
+    	
 
      NotificationService sn = new  NotificationService();
         FeedbackService fn= new FeedbackService ();
-        try {
-            Notification n =new Notification("Nouvelle commande", "Une nouvelle commande a été ajoutée",0);
-           
+//        try {
+//            Notification n =new Notification("Nouvelle commande", "Une nouvelle commande a été ajoutée",0);
+//           
             //sn.addNotification(n);
 //            System.out.println(sn.getNotifications());
 
@@ -134,11 +143,63 @@ public class main {
 //             System.out.println(fn.getFeedbacksByUser(1));
            // System.out.println(sn.getNotificationWithNoView());
            // System.out.println(fn.getFeedbacks());
-           // System.out.println(fn.getFeedbacksByUser(3));
-            System.out.println(fn.getFeedbacksByBook(2));
-        } catch (SQLException e) {
-            System.out.println("Exception");
+          // System.out.println(fn.getFeedbacksByUser(3));
+           
+            
+//        } catch (SQLException e) {
+//            System.out.println("Exception");
+//    }
+        
+       UserService us = new UserService();
+       
+      
+//       try {   	  
+//    	   p1.setId(6);
+//    	   us.modifierUser(p1);
+//       } catch (SQLException exc) {
+//	       System.out.println(exc.getMessage());
+//	   }
+       
+       
+//       try {
+//        	us.addProprietaire(p2);
+//                
+//        } catch (SQLException exc) {
+//            System.out.println(exc.getMessage());
+//        }
+       
+       /*try {
+       	us.addGerant(g1);
+       } catch (SQLException exc) {
+           System.out.println(exc.getMessage());
+       }*/
+       
+       /*try {
+       	us.addMember(m1);
+       } catch (SQLException exc) {
+           System.out.println(exc.getMessage());
+     /*  }
+       
+       try {
+        	System.out.println(us.getMembers());
+        } catch (SQLException exc) {
+            System.out.println(exc.getMessage());
+        }
+       try {
+       	System.out.println(us.getGerants());
+       } catch (SQLException exc) {
+           System.out.println(exc.getMessage());
+       }
+       
+     
+       /* try {
+         us.deleteUser(4)    ;
+         } catch (SQLException exc1) {
+           System.out.println(exc1.getMessage());
+       }*/
+       
+       
     }
 }
-}
+
 

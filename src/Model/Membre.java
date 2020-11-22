@@ -13,15 +13,15 @@ public class Membre extends User {
         super();
     }
 
-    public Membre(int id, String nom, String prenom, String username, String email, String adresse, String role, int numinscrit) {
-        super(id, nom, prenom, username, email, adresse, role);
+    public Membre(int id, String nom, String prenom,String username, String password, String email, String adresse, String role, int numinscrit) {
+        super(id, nom, prenom, username, email, adresse, role, password);
         this.numinscrit = numinscrit;
         livres_populaires = new HashSet<Livre>();
         livre_recommande = new HashSet<Livre>();
     }
 
-    public Membre(String nom, String prenom, String username, String email, String adresse, String role, int numinscrit) {
-        super(nom, prenom, username, email, adresse, role);
+    public Membre(String nom, String prenom,String username, String password, String email, String adresse, String role, int numinscrit) {
+        super(nom, prenom, username, email, adresse, role, password);
         this.numinscrit = numinscrit;
         livres_populaires = new HashSet<Livre>();
         livre_recommande = new HashSet<Livre>();
