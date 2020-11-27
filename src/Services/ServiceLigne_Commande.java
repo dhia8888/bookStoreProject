@@ -5,9 +5,10 @@
  */
 package Services;
 
-import BookStore.utils.MyConnection;
 import Interfaces.LigneCommandeInterface;
 import Model.Ligne_commande;
+import utils.MyConnection;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

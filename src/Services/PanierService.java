@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Services;
 
-import BookStore.utils.MyConnection;
 import Interfaces.PanierInterface;
 import Model.Panier;
+import utils.MyConnection;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -18,18 +14,17 @@ import java.sql.SQLException;
  * @author Lenovo
  */
 public class PanierService implements PanierInterface{
-     private Connection cnx;
+    private Connection cnx;
 
     public PanierService()
     {
-         cnx = MyConnection.getInstance().getConnection();
+        cnx = MyConnection.getInstance().getConnection();
 
     }
 
-
     public void addPanier(Panier p) throws SQLException
     {
-        PreparedStatement preparedStmt = cnx.prepareStatement("INSERT into panier values (null,?,?,?,?)");
+        PreparedStatement preparedStmt = cnx.prepareStatement("INSERT INTO `panier` (`id`, `nbrArticle`, `total`, `commande_id`, `client_id`) VALUES (NULL, ?,?,?,?);");
         preparedStmt.setInt(1,p.getNbrArticle());
         preparedStmt.setFloat(2,p.getTotal());
         preparedStmt.setInt(3,p.getCommande_id());
@@ -46,7 +41,6 @@ public class PanierService implements PanierInterface{
 
 
     public void updatePanier(Panier p) throws SQLException {
-
         PreparedStatement preparedStmt = cnx.prepareStatement("UPDATE panier SET nbrArticle =?,total=?,commande_id=?,client_id=? WHERE id= ?");
         preparedStmt.setInt(1,p.getNbrArticle());
         preparedStmt.setFloat(2,p.getTotal());
@@ -54,10 +48,6 @@ public class PanierService implements PanierInterface{
         preparedStmt.setInt(4,p.getClient_id());
         preparedStmt.setInt(5,p.getId());
         preparedStmt.executeUpdate();
-
-        
-        
-        
         System.out.println( "UPDATTE  avec Succes Panier");
 
     }
@@ -68,5 +58,5 @@ public class PanierService implements PanierInterface{
         preparedStmt.executeUpdate();
         System.out.println( "DELETE  avec Succes Panier");
     }
-    
+
 }

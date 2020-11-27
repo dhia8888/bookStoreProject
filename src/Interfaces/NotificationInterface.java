@@ -6,6 +6,10 @@
 package Interfaces;
 
 import Model.Notification;
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature7
 import java.sql.SQLException;
 import java.util.ArrayList;
 

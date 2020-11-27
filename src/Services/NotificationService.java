@@ -5,6 +5,7 @@
  */
 package Services;
 
+<<<<<<< HEAD
 import BookStore.utils.MyConnection;
 import Interfaces.NotificationInterface;
 import Model.Notification;
@@ -13,6 +14,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+=======
+import Interfaces.NotificationInterface;
+import Model.Notification;
+import utils.MyConnection;
+
+import java.sql.*;
+>>>>>>> feature7
 import java.util.ArrayList;
 
 /**

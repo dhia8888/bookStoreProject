@@ -4,19 +4,30 @@
  * and open the template in the editor.
  */
 package Services;
+<<<<<<< HEAD
 
 import BookStore.utils.MyConnection;
 import Interfaces.FeedbackInterface;
 import Model.Feedback;
+=======
+import Interfaces.FeedbackInterface;
+import Model.Feedback;
+import utils.MyConnection;
+>>>>>>> feature7
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+<<<<<<< HEAD
 
 /**
  *
  * @author Lenovo
+=======
+/**
+ *
+>>>>>>> feature7
  */
 public class FeedbackService implements FeedbackInterface{
     private Connection cnx;

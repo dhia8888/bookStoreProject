@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import BookStore.utils.MyConnection;
 import Model.Auteur;
@@ -23,12 +24,21 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
+=======
+import Model.Proprietaire;
+import Services.FeedbackService;
+import Services.NotificationService;
+>>>>>>> feature7
 
 public class main {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         
        
+=======
+
+>>>>>>> feature7
 //       Livre l = new Livre("You", "Anglais","iot",102, 34, "2020", 180.0);
 //       //l.setId_livre(1);
 //       Auteur a = new Auteur("Ben Gaid Hassine", "mohamed", "young author", "04/10/1998");
@@ -43,7 +53,7 @@ public class main {
 //        l.setAuteurs(auts);
 //        l.setGenres(gns);
 //        l.setEditeur(e);
-        
+
 //         Livre l = new Livre("Blade", "Anglais","iot",152, 14, "2020", 190.0);
 //       //l.setId_livre(1);
 //       Auteur a = new Auteur("Kefi", "Aymen", "Big author", "10/06/1997");
@@ -112,8 +122,10 @@ public class main {
 //          }
 
 
+        Proprietaire p2 = new Proprietaire("ah", "ahmed", "ben ahmed", "password", "bizerte@g.com", "bizerte", "", "124");
 
 
+<<<<<<< HEAD
         
            
         
@@ -127,6 +139,14 @@ public class main {
 //            Notification n =new Notification("Nouvelle commande", "Une nouvelle commande a été ajoutée",0);
 //           
             //sn.addNotification(n);
+=======
+        NotificationService sn = new NotificationService();
+        FeedbackService fn = new FeedbackService();
+//        try {
+//            Notification n =new Notification("Nouvelle commande", "Une nouvelle commande a été ajoutée",0);
+//           
+        //sn.addNotification(n);
+>>>>>>> feature7
 //            System.out.println(sn.getNotifications());
 
 ////           sn.addNotification(new Notification ("Nouveau gérant", "Un nouveau gérant a été ajouté",0));
@@ -136,6 +156,7 @@ public class main {
 //            Notification n = new Notification("Nouvelle facture", "Une nouvelle  facture a été ajoutée",0);
 //            sn.addNotification(n);
 //            System.out.println(sn.getNotifications());
+<<<<<<< HEAD
              // n.setVu(1);
              // n.setId_notif(7);
              //   sn.updateNotification(n);
@@ -153,14 +174,38 @@ public class main {
        UserService us = new UserService();
        
       
+=======
+        // n.setVu(1);
+        // n.setId_notif(7);
+        //   sn.updateNotification(n);
+
+//             System.out.println(fn.getFeedbacksByUser(1));
+        // System.out.println(sn.getNotificationWithNoView());
+        // System.out.println(fn.getFeedbacks());
+        // System.out.println(fn.getFeedbacksByUser(3));
+
+
+//        } catch (SQLException e) {
+//            System.out.println("Exception");
+//    }
+
+        //  UserService us = new UserService();
+
+
+>>>>>>> feature7
 //       try {   	  
 //    	   p1.setId(6);
 //    	   us.modifierUser(p1);
 //       } catch (SQLException exc) {
 //	       System.out.println(exc.getMessage());
 //	   }
+<<<<<<< HEAD
        
        
+=======
+
+
+>>>>>>> feature7
 //       try {
 //        	us.addProprietaire(p2);
 //                
@@ -197,8 +242,12 @@ public class main {
          } catch (SQLException exc1) {
            System.out.println(exc1.getMessage());
        }*/
+<<<<<<< HEAD
        
        
+=======
+
+>>>>>>> feature7
     }
 }
 
