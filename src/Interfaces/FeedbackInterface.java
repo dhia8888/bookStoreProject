@@ -6,6 +6,10 @@
 package Interfaces;
 
 import Model.Feedback;
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature7
 import java.sql.SQLException;
 import java.util.ArrayList;
 

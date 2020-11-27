@@ -5,27 +5,45 @@
  */
 package Services;
 
+<<<<<<< HEAD
 import BookStore.utils.MyConnection;
+=======
+import Interfaces.UserInterface;
+>>>>>>> feature7
 import Model.Gerant;
 import Model.Membre;
 import Model.Proprietaire;
 import Model.User;
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+=======
+import utils.MyConnection;
+
+import java.sql.*;
+>>>>>>> feature7
 import java.util.ArrayList;
 
 /**
  *
  * @author Lenovo
  */
+<<<<<<< HEAD
 public class UserService {
     private Connection cnx;
 	
 	public UserService() {
 		cnx = MyConnection.getInstance().getConnection();	
+=======
+public class UserService  implements UserInterface {
+    private Connection cnx;
+	
+	public UserService() {
+		cnx = MyConnection.getInstance().getConnection();
+>>>>>>> feature7
 	}
 	
 	public void addProprietaire(Proprietaire p) throws SQLException {

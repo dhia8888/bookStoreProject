@@ -5,15 +5,12 @@
  */
 package Services;
 
-import BookStore.utils.MyConnection;
 import Interfaces.CommandeInterface;
 import Model.Commande;
 import Model.Ligne_commande;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import utils.MyConnection;
+
+import java.sql.*;
 import java.util.ArrayList;
 
 /**
@@ -96,9 +93,6 @@ public class CommandeService implements CommandeInterface{
         preparedStmt.setInt(1,id);
         preparedStmt.executeUpdate();
         System.out.println( "DELETE  avec Succes commande");
-
-
-
      }
     
 }

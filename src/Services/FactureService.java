@@ -5,14 +5,11 @@
  */
 package Services;
 
-import BookStore.utils.MyConnection;
 import Interfaces.FactureInterface;
 import Model.Facture;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import utils.MyConnection;
+
+import java.sql.*;
 import java.util.ArrayList;
 
 /**
