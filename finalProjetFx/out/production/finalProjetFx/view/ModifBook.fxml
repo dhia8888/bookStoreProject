@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="adminVBox" alignment="TOP_CENTER" prefHeight="466.0" prefWidth="670.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.ModifBookController">
+    <children>
+
+        <HBox alignment="TOP_LEFT" prefHeight="51.0" prefWidth="562.0" spacing="140">
+            <VBox.margin>
+                <Insets left="20.0" right="15.0" top="30.0" />
+            </VBox.margin>
+            <ImageView fx:id="backToHome" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                </image>
+            </ImageView>
+
+            <Label id="title" alignment="TOP_CENTER" layoutX="100.0" layoutY="115.0" prefHeight="43.0" prefWidth="313.0" style="-fx-border-radius: 6px; -fx-translate-y: -14; -fx-translate-x: -20;" text="Modifier Livre" textAlignment="CENTER" textFill="WHITE">
+                <font>
+                    <Font size="31.0" />
+                </font>
+                <effect>
+                    <Bloom />
+                </effect>
+            </Label>
+        </HBox>
+
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labelTitre" layoutX="25.0" layoutY="115.0" prefHeight="44.0" prefWidth="200.0" style="-fx-translate-x: -47;" text="Titre livre" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="trTitre" prefHeight="40.0" prefWidth="350.0" promptText="Name" style="-fx-border-color: black; -fx-border-radius: 30px; -fx-background-radius: 30px; -fx-translate-y: -3;" />
+            </children>
+        </HBox>
+
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labelPrix" layoutX="25.0" layoutY="115.0" prefHeight="44.0" prefWidth="200.0" style="-fx-translate-x: -47;" text="Prix" textFill="WHITE">
+                    <font>
+                        <Font size="17.0" />
+                    </font></Label>
+                <TextField fx:id="trPrix" prefHeight="40.0" prefWidth="350.0" promptText="Price" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black;" />
+            </children>
+        </HBox>
+
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labeldesc" layoutX="25.0" layoutY="115.0" prefHeight="44.0" prefWidth="200.0" style="-fx-translate-x: -47;" text="Description" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <TextField fx:id="trDesc" prefHeight="40.0" prefWidth="350.0" promptText="Description" style="-fx-border-radius: 30; -fx-background-radius: 30; -fx-border-color: black; -fx-translate-y: 3;" />
+            </children>
+        </HBox>
+
+        <HBox alignment="TOP_CENTER" prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labelImage" layoutX="25.0" layoutY="115.0" prefHeight="38.0" prefWidth="294.0" style="-fx-translate-x: -47;" text="Image" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <Button fx:id="btnBrowse" prefHeight="34.0" prefWidth="504.0" style="-fx-translate-x: 70; -fx-text-fill: black; -fx-border-radius: 30px; -fx-border-color: black; -fx-translate-y: 3;" styleClass="pink-btn" stylesheets="@styles/style.css" text="UPLOAD IMAGE" />
+                <Label fx:id="labelUrl" prefHeight="21.0" prefWidth="284.0" />
+            </children>
+        </HBox>
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labelAnnee" layoutX="25.0" layoutY="115.0" prefHeight="44.0" prefWidth="200.0" style="-fx-translate-x: -47;" text="Année" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <TextField fx:id="trAnnee" prefHeight="40.0" prefWidth="350.0" promptText="Year" style="-fx-border-color: black; -fx-border-radius: 30; -fx-background-radius: 30;" />
+
+            </children>
+
+        </HBox>
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labelLangage" alignment="CENTER_LEFT" layoutX="25.0" layoutY="115.0" prefHeight="40.0" prefWidth="198.0" style="-fx-translate-x: -47;" text="Langue" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font></Label>
+                <TextField fx:id="trLangue" prefHeight="40.0" prefWidth="350.0" promptText="Langue" style="-fx-border-color: black; -fx-border-radius: 30; -fx-background-radius: 30; -fx-translate-y: 3;" />
+
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <children>
+                <Label id="title" fx:id="labelNbPage" alignment="CENTER" layoutX="25.0" layoutY="115.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="110.0" style="-fx-translate-x: -108;" text="Nombre pages" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <TextField fx:id="trNbPage" prefHeight="40.0" prefWidth="349.0" promptText="nb_pages" style="-fx-translate-x: 35; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-translate-y: 3;" />
+            </children>
+        </HBox>
+
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="50.0" right="15.0" />
+            </VBox.margin>
+            <children>
+                <Label id="title" fx:id="labelNbEx" alignment="CENTER_LEFT" layoutX="25.0" layoutY="115.0" prefHeight="44.0" prefWidth="200.0" style="-fx-translate-x: -45;" text="Nombre exemplaires" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <TextField fx:id="trNbEx1" prefHeight="40.0" prefWidth="350.0" promptText="nb_exemplaires" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-translate-y: 3;" />
+
+            </children>
+        </HBox>
+
+
+
+
+        <HBox alignment="CENTER" layoutX="25.0" layoutY="272.0" prefHeight="46.0" prefWidth="392.0" spacing="30">
+            <VBox.margin>
+                <Insets left="25.0" right="25.0" top="20.0" />
+            </VBox.margin>
+            <children>
+
+            </children>
+            <children>
+
+            </children>
+            <children>
+                <AnchorPane prefHeight="45.0" prefWidth="659.0">
+                    <children>
+                        <Button fx:id="btnAnnuler" layoutX="427.0" layoutY="7.0" mnemonicParsing="false" style="-fx-translate-x: 110;" styleClass="red-btn" stylesheets="@styles/style.css" text="Annuler" />
+                        <Label fx:id="LbErreur" layoutX="1.0" layoutY="11.0" prefHeight="21.0" prefWidth="315.0" textFill="RED" />
+                        <Button fx:id="btnValider" layoutX="258.0" layoutY="6.0" mnemonicParsing="false" prefWidth="58.0" style="-fx-translate-x: 125;" styleClass="pink-btn" stylesheets="@styles/style.css" text="Valider" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </children>
+</VBox>

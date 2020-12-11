@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="1033.0" style="-fx-background-color: #283747;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.UserManagementController">
+   <children>
+      <VBox layoutX="14.0" layoutY="51.0" prefHeight="347.0" prefWidth="62.0" spacing="15.0">
+         <children>
+            <Label text="Nom" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Prenom" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Username" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Password" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Email" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+             <Label text="Adresse" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+             <Label text="Rib" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+             <Label text="Salaire" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="26.0" prefWidth="66.0" text="Matricule" textFill="#f5f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="87.0" layoutY="51.0" prefHeight="293.0" prefWidth="130.0" spacing="10.0">
+         <children>
+            <TextField fx:id="txt_nom" />
+            <TextField fx:id="txt_prenom" />
+            <TextField fx:id="txt_username" />
+            <TextField fx:id="txt_password" />
+            <TextField fx:id="txt_email" />
+             <TextField fx:id="txt_adresse" />
+              <TextField fx:id="txt_rib" />
+               <TextField fx:id="txt_salaire" />
+              <TextField fx:id="txt_matricule" />
+               
+           
+         </children>
+      </VBox>
+      <HBox layoutX="38.0" layoutY="364.0" spacing="10.0" />
+      <TableView fx:id="TableView" layoutX="242.0" layoutY="41.0" onMouseClicked="#tableDataClick" prefHeight="393.0" prefWidth="772.0" stylesheets="@styles/DarkTheme.css">
+        <columns>
+          <TableColumn fx:id="nomColumn" prefWidth="56.0" text="Nom" />
+          <TableColumn fx:id="prenomColumn" prefWidth="90.0" text="Prenom" />
+            <TableColumn fx:id="usernameColumn" prefWidth="103.0" text="username" />
+            <TableColumn fx:id="passwordColumn" prefWidth="96.0" text="password" />
+            <TableColumn fx:id="emailColumn" prefWidth="65.0" text="email" />
+			<TableColumn fx:id="adresseColumn" prefWidth="85.0" text="adresse" />
+            
+			<TableColumn fx:id="ribColumn" prefWidth="41.0" text="rib" />
+             <TableColumn fx:id="salaireColumn" prefWidth="72.0" text="salaire" />
+              <TableColumn fx:id="matriculeColumn" prefWidth="95.0" text="matricule" />
+                 <TableColumn fx:id="roleColumn" prefWidth="66.0" text="Role" />
+            
+        </columns>
+      </TableView>
+      <Button fx:id="deleteButton" layoutX="141.0" layoutY="460.0" mnemonicParsing="false" onAction="#DeleteGerant" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: #A93226;" text="Delete" />
+      <Button fx:id="updateButton" layoutX="14.0" layoutY="460.0" mnemonicParsing="false" onAction="#UpdateGerant" prefHeight="30.0" prefWidth="111.0" style="-fx-background-color: #BDC3C7;" text="Update" />
+      <Button fx:id="back_to_menu" layoutX="930.0" layoutY="460.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: white;" text="Back" textFill="#178a24" />
+      <Button fx:id="addManager" layoutX="252.0" layoutY="460.0" mnemonicParsing="false" onAction="#AddGerant" prefHeight="30.0" prefWidth="175.0" style="-fx-background-color: #117A65;" text="Add new manager" />
+   </children>
+</AnchorPane>

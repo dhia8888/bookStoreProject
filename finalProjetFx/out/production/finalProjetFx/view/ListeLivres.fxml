@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.ListeLivresController">
+   <children>
+      <TableView fx:id="infoliv" layoutX="227.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" styleClass="table-row-cell" stylesheets="@styles/bc.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="33.5999755859375" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="ID" />
+          <TableColumn fx:id="col_titre" prefWidth="119.19998168945312" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="Titre" />
+            <TableColumn fx:id="col_langue" prefWidth="74.4000244140625" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="Langue" />
+            <TableColumn fx:id="col_nbpages" prefWidth="75.0" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="Nb Pages" />
+            <TableColumn fx:id="col_annee" prefWidth="109.60003662109375" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="Année" />
+            <TableColumn fx:id="col_prix" prefWidth="67.199951171875" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="Prix" />
+            <TableColumn fx:id="col_nbexemplaires" prefWidth="121.59991455078125" style="-fx-background-color: #1868ae; -fx-text-fill: white; -fx-border-color: #1e3d59;" text="Nb exemplaires" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

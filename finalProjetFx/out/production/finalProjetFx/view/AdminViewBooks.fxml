@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="711.0" prefWidth="1067.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.AdminViewBooksController">
+   <children>
+      <VBox fx:id="vbListeL" layoutY="201.0" prefHeight="496.0" prefWidth="1067.0" />
+      <ComboBox fx:id="cbGenre" layoutX="678.0" layoutY="169.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbAuteur" layoutX="366.0" layoutY="169.0" prefWidth="150.0" stylesheets="@styles/style.css" />
+      <Label layoutX="575.0" layoutY="167.0" prefHeight="21.0" prefWidth="65.0" text="Genre :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="270.0" layoutY="170.0" text="Auteur :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="rechercherNomL" layoutX="864.0" layoutY="169.0" prefHeight="26.0" prefWidth="189.0" promptText="Rechercher par nom" style="-fx-border-radius: 30; -fx-background-radius: 30; -fx-border-width: 2.5;" />
+      <Button fx:id="btnReset" layoutX="22.0" layoutY="168.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="108.0" styleClass="red-btn" stylesheets="@styles/style.css" text="Reset" />
+      <Text fill="WHITE" layoutX="376.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VIEW BOOKS" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Button fx:id="BtnAjouter" layoutX="878.0" layoutY="106.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="171.0" styleClass="btn-slide" stylesheets="@styles/style.css" text="Ajouter un livre" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="httpclient-4.0-beta2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/libery/httpclient-4.0-beta2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/httpcore-4.0-beta3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/apache-mime4j-0.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/httpmime-4.0-beta2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/activation.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/itextpdf-5.0.6.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/gson-2.8.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/mail.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/stripe-java-20.31.0 (1).jar!/" />
+      <root url="file://$USER_HOME$/Desktop" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Amyne/javafxBookStore/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Ayoub/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Drapo-Dashboard-JavaFX-master/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (11)/playWithJava/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (12)/1Alinfo3JDBC/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (13)/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (14)/BookStoreFx/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (15)/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (17)/javafxBookStore/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (5)/Serie1/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (6)/Nouveau dossier/TuniProd.GestionMagasin/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (6)/TuniProd.GestionMagasin/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (6)/javap1/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (8)/solution-code-hibernate-hb-05-many-to-many/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (9)/ayoub/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (9)/javafx-payroll-master/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier/solution-code-hibernate-hb-02-one-to-one-bi-delete-instructor-detail-only/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier/solution-code-hibernate-hb-04-one-to-many-uni/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier/solution-code-hibernate-hb-05-many-to-many/src" />
+      <root url="file://$USER_HOME$/Desktop/book/BookStoreProject/src" />
+      <root url="file://$USER_HOME$/Desktop/final/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/java/TuniProd.GestionMagasin/src" />
+      <root url="file://$USER_HOME$/Desktop/temim/BookStoreFx/src" />
+      <root url="file://$USER_HOME$/Desktop" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop" recursive="false" type="SOURCES" />
+  </library>
+</component>

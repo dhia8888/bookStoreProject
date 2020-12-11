@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="380.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.LivreEditionController">
+   <children>
+      <BarChart fx:id="barchart" prefHeight="380.0" prefWidth="630.0">
+        <xAxis>
+          <CategoryAxis fx:id="editionax" label="Editions" side="BOTTOM" tickLabelFill="WHITE">
+               <effect>
+                  <Bloom />
+               </effect>
+               <tickLabelFont>
+                  <Font size="19.0" />
+               </tickLabelFont></CategoryAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="livresax" autoRanging="false" label="Nombre Livres" minorTickCount="1" prefHeight="416.0" prefWidth="50.0" side="LEFT" tickLabelFill="WHITE" tickUnit="1.0" upperBound="30.0">
+               <tickLabelFont>
+                  <Font size="16.0" />
+               </tickLabelFont>
+               <effect>
+                  <Bloom />
+               </effect></NumberAxis>
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
