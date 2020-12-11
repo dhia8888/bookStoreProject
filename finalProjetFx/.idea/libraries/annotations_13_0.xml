@@ -1,0 +1,59 @@
+<component name="libraryTable">
+  <library name="annotations-13.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/annotations-13.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/client-5.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/commons-codec-1.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/commons-io-2.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/commons-lang3-3.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/httpclient-4.5.8.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/httpcore-4.4.11.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-annotations-2.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-core-2.9.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-databind-2.9.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-dataformat-hal-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-jaxrs-base-2.8.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-jaxrs-json-provider-2.8.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jackson-module-jaxb-annotations-2.8.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jaxb-api-2.3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jjwt-api-0.10.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jjwt-impl-0.10.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jjwt-jackson-0.10.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/jwt-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/kotlin-stdlib-1.3.31.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/kotlin-stdlib-jdk7-1.3.31.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/kotlin-stdlib-jdk8-1.3.31.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/libery/tel/slf4j-api-1.7.21.jar!/" />
+      <root url="file://$USER_HOME$/Desktop" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Amyne/javafxBookStore/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Ayoub/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Drapo-Dashboard-JavaFX-master/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (11)/playWithJava/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (12)/1Alinfo3JDBC/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (13)/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (14)/BookStoreFx/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (15)/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (17)/javafxBookStore/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (5)/Serie1/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (6)/Nouveau dossier/TuniProd.GestionMagasin/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (6)/TuniProd.GestionMagasin/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (6)/javap1/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (8)/solution-code-hibernate-hb-05-many-to-many/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (9)/ayoub/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier (9)/javafx-payroll-master/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier/solution-code-hibernate-hb-02-one-to-one-bi-delete-instructor-detail-only/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier/solution-code-hibernate-hb-04-one-to-many-uni/src" />
+      <root url="file://$USER_HOME$/Desktop/Nouveau dossier/solution-code-hibernate-hb-05-many-to-many/src" />
+      <root url="file://$USER_HOME$/Desktop/book/BookStoreProject/src" />
+      <root url="file://$USER_HOME$/Desktop/final/javafxBookStore/src" />
+      <root url="file://$USER_HOME$/Desktop/java/TuniProd.GestionMagasin/src" />
+      <root url="file://$USER_HOME$/Desktop/temim/BookStoreFx/src" />
+      <root url="file://$USER_HOME$/Desktop" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop" recursive="false" type="SOURCES" />
+  </library>
+</component>

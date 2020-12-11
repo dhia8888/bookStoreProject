@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="760.0" stylesheets="@styles/admin.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.AdminController">
+
+   <children>
+      <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="760.0" styleClass="hbox-top-background">
+         <children>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="200.0" styleClass="logo-background">
+               <children>
+                  <ImageView fitHeight="61.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/image.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="560.0" spacing="5.0" styleClass="control-background" HBox.hgrow="ALWAYS">
+               <children>
+                  <Pane maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="560.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="menu" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#menu" prefHeight="30.0" prefWidth="30.0" styleClass="hamburger-button" />
+                        <Button layoutX="52.0" layoutY="18.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" styleClass="logout-button" />
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <StackPane fx:id="stackpane" alignment="CENTER_LEFT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="760.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="760.0">
+               <children>
+                  <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="729.0" styleClass="vbox-panel" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox visible="false" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label alignment="CENTER" layoutX="48.0" layoutY="58.0" prefHeight="25.0" prefWidth="83.0" text="Total Students" textFill="WHITE">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="58.0" layoutY="14.0" text="500" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox HBox.hgrow="ALWAYS">
+                           <GridPane hgap="15.0" layoutX="45.0" layoutY="158.0" prefHeight="103.0" prefWidth="869.0" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="158.0" HBox.hgrow="ALWAYS">
+                              <columnConstraints>
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                              </columnConstraints>
+                              <rowConstraints>
+                                 <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              </rowConstraints>
+                              <children>
+                                 <Pane prefHeight="103.0" prefWidth="200.0" style="-fx-background-color: #3A84C3; -fx-background-radius: 1em;">
+                                    <children>
+                                       <Label alignment="CENTER" layoutX="48.0" layoutY="58.0" prefHeight="25.0" prefWidth="83.0" text="par Sms" textFill="WHITE">
+                                          <font>
+                                             <Font size="13.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="GnRapport" alignment="CENTER" layoutY="8.0" prefHeight="35.0" prefWidth="274.0" text="Generer un rapport" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="24.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </Pane>
+                                 <Pane prefHeight="103.0" prefWidth="200.0" style="-fx-background-color: #EEAC4C; -fx-background-radius: 1em;" GridPane.columnIndex="1">
+                                    <children>
+                                       <Label layoutX="56.0" layoutY="68.0" text="Livres Vendu" textFill="WHITE">
+                                          <font>
+                                             <Font size="13.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="livresNonVendu" layoutX="48.0" layoutY="19.0" text="" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="36.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </Pane>
+                                 <Pane prefHeight="39.0" prefWidth="326.0" style="-fx-background-color: #5CB55B; -fx-background-radius: 1em;" GridPane.columnIndex="2">
+                                    <children>
+                                       <Label layoutX="51.0" layoutY="58.0" prefHeight="25.0" prefWidth="120.0" text="Chiffre d'affaires" textFill="WHITE">
+                                          <font>
+                                             <Font size="13.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="Chiffre" layoutX="82.0" layoutY="9.0" prefHeight="32.0" prefWidth="258.0" text="3" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="22.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </Pane>
+                                 <Pane prefHeight="103.0" prefWidth="200.0" style="-fx-background-color: #D7534E; -fx-background-radius: 1em;" GridPane.columnIndex="3">
+                                    <children>
+                                       <Label layoutX="47.0" layoutY="58.0" prefHeight="25.0" prefWidth="120.0" text="Livres Non Vendu" textFill="WHITE">
+                                          <font>
+                                             <Font size="13.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="LivresVendu" layoutX="79.0" layoutY="14.0" text="" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="36.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </Pane>
+                              </children>
+                           </GridPane>
+                        </HBox>
+                        <AnchorPane />
+                        <LineChart fx:id="invoiceChart" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="760.0" title="Sales Report" VBox.vgrow="ALWAYS">
+                           <xAxis>
+                              <CategoryAxis fx:id="ixAxis" side="BOTTOM" />
+                           </xAxis>
+                           <yAxis>
+                              <NumberAxis fx:id="syAxis" label="Revenue" side="LEFT" />
+                           </yAxis>
+                        </LineChart>
+                        <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="760.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <PieChart fx:id="stockChart" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="380.0" title="Vente des livres par Genre" HBox.hgrow="ALWAYS" />
+                              <BarChart fx:id="productsChart" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="380.0" title="Vente des livres par Auteurs" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                                 <xAxis>
+                                    <CategoryAxis fx:id="pxAxis" side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis fx:id="pyAxis" side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</VBox>

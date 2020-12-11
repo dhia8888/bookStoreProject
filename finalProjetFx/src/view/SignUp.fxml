@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="vboxRegitration" alignment="CENTER_LEFT" prefHeight="596.0" prefWidth="570.0" style="-fx-background-color: #212F3C;" stylesheets="@styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.SignUpController">
+    <children>
+        <HBox alignment="TOP_LEFT" prefHeight="50.0" prefWidth="165.0">
+            <VBox.margin>
+                <Insets left="25.0" right="25.0" top="-100.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fx:id="backToLogin" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                    </image>
+                </ImageView>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="161.0" prefWidth="570.0">
+            <Label fx:id="loginName" alignment="CENTER" prefHeight="77.0" prefWidth="570.0" style="-fx-background-color: white;" text="     ADD MANAGER" textFill="#212f3c">
+                <font>
+                    <Font size="25.0" />
+                </font>
+                <VBox.margin>
+                    <Insets bottom="15.0" left="35.0" top="-35.0" />
+                </VBox.margin>
+            </Label>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="75.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+           
+            <children>
+              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/icons8-user-50.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="txt_name" prefHeight="40.0" prefWidth="340.0" promptText="Name" />
+            <TextField fx:id="txt_lastname" prefHeight="40.0" prefWidth="350.0" promptText="Last Name" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="74.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                
+                <TextField fx:id="txt_username" prefHeight="47.0" prefWidth="351.0" promptText="Username" translateX="25.0" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="26.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/icons8-email-50.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="txt_email" prefHeight="40.0" prefWidth="350.0" promptText="Email" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/icons8-password-50.png" />
+                    </image>
+                </ImageView>
+                <PasswordField fx:id="txt_password" prefHeight="42.0" prefWidth="350.0" promptText="Password" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/icons8-map-marker-50.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="txt_address" prefHeight="43.0" prefWidth="350.0" promptText="Address" />
+            </children>
+        </HBox>
+        
+        <HBox prefHeight="36.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/icons8-shopping-cart-80.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="txt_rib" prefHeight="44.0" prefWidth="348.0" promptText="Rib" translateX="5.0" />
+            </children>          
+        </HBox>
+        
+        <HBox prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/prop.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="txt_matricule" prefHeight="44.0" prefWidth="350.0" promptText="Matricule" translateX="4.0" />
+            </children>          
+        </HBox>
+        
+        <HBox prefHeight="36.0" prefWidth="405.0" styleClass="tf-box">
+            <VBox.margin>
+                <Insets left="100.0" right="65.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                    </image>
+                </ImageView>
+                <TextField fx:id="txt_salaire" prefHeight="45.0" prefWidth="350.0" promptText="Salaire (Dt)" translateX="4.0" />
+            </children>          
+        </HBox>
+        
+        <HBox alignment="CENTER" layoutX="25.0" layoutY="272.0" prefHeight="46.0" prefWidth="392.0" spacing="30">
+            <VBox.margin>
+                <Insets left="25.0" right="25.0" top="20.0" />
+            </VBox.margin>
+            <children>
+            <Button fx:id="back_to_usermng" alignment="CENTER" mnemonicParsing="false" onAction="#navback" prefHeight="51.0" prefWidth="145.0" style="-fx-background-color: white;" text="Back" textFill="#389a10">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="addUser_button" alignment="CENTER" mnemonicParsing="false" onAction="#addGerant" prefHeight="30.0" prefWidth="166.0" style="-fx-background-color: #228B22;" text="Register" textFill="#f5f2f2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            </children>
+            
+        </HBox>
+
+    </children>
+</VBox>

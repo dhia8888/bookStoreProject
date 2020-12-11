@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="769.0" prefWidth="1006.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Member.BookController">
+   <children>
+      <ImageView fx:id="imageLivre" fitHeight="244.0" fitWidth="228.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="302.0" layoutY="56.0" prefHeight="30.0" prefWidth="48.0" text="By :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vbAuteurs" layoutX="360.0" layoutY="56.0" prefHeight="82.0" prefWidth="307.0" />
+      <Label layoutX="363.0" layoutY="348.0" prefHeight="30.0" prefWidth="58.0" text="Prix :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbPrix" layoutX="511.0" layoutY="348.0" prefHeight="30.0" prefWidth="193.0" text="prix" textFill="#2e00ab">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="310.0" prefHeight="30.0" prefWidth="58.0" text="Titre :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="386.0" prefHeight="30.0" prefWidth="126.0" text="description :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAddPanier" layoutX="770.0" layoutY="591.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="115.0" styleClass="pink-btn" stylesheets="@styles/style.css" text="Add to Panier" />
+      <Label fx:id="lbTitre" layoutX="511.0" layoutY="310.0" prefHeight="30.0" prefWidth="446.0" text="titre" textFill="#2e00ab">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="695.0" layoutY="56.0" prefHeight="30.0" prefWidth="78.0" text="Anneé :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbAnnee" layoutX="772.0" layoutY="56.0" prefHeight="30.0" prefWidth="168.0" text="Année" textFill="#2e00ab">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="taDesc" alignment="TOP_LEFT" layoutX="511.0" layoutY="386.0" prefHeight="123.0" prefWidth="300.0" text="desc" textFill="#2e00ab">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="215.0" prefHeight="30.0" prefWidth="90.0" text="Genres : " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vbGenres" layoutX="462.0" layoutY="204.0" prefHeight="82.0" prefWidth="307.0" />
+      <Label layoutX="769.0" layoutY="503.0" prefHeight="30.0" prefWidth="104.0" text="Quantité:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbQ" layoutX="872.0" layoutY="503.0" prefHeight="30.0" prefWidth="136.0" text="Q" textFill="#2e00ab">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfQ" alignment="CENTER" layoutX="764.0" layoutY="544.0" prefHeight="31.0" prefWidth="126.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-width: 2;" />
+      <Button fx:id="btnp" layoutX="890.0" layoutY="544.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="36.0" styleClass="pink-btn" stylesheets="@styles/style.css" text="+" />
+      <Button fx:id="btnM" layoutX="728.0" layoutY="544.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="36.0" styleClass="pink-btn" stylesheets="@styles/style.css" text="-" />
+      <AnchorPane fx:id="apMap" layoutX="20.0" layoutY="425.0" prefHeight="98.0" prefWidth="353.0">
+         <children>
+            <Label layoutX="-10.0" layoutY="10.0" prefHeight="30.0" prefWidth="220.0" text="View Edition Location :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button id="btnM" fx:id="btnMap" layoutX="210.0" layoutY="13.0" mnemonicParsing="false" text="View" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
