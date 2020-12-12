@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.ListeCommandesController">
+   <children>
+      <TableView fx:id="infocom" prefHeight="400.0" prefWidth="305.0">
+         <columns>
+            <TableColumn fx:id="col_id_lc" prefWidth="33.5999755859375" style="-fx-background-color: #1868ae; -fx-text-fill: #fa5f7e; -fx-border-color: #1e3d59;" text="ID" />
+            <TableColumn fx:id="col_date_lc" prefWidth="119.19998168945312" style="-fx-background-color: #1868ae; -fx-text-fill: #fa5f7e; -fx-border-color: #1e3d59;" text="Date" />
+            <TableColumn fx:id="col_livraison_lc" prefWidth="74.4000244140625" style="-fx-background-color: #1868ae; -fx-text-fill: #fa5f7e; -fx-border-color: #1e3d59;" text="Livraison" />
+            <TableColumn fx:id="col_client_lc" prefWidth="75.0" style="-fx-background-color: #1868ae; -fx-text-fill: #fa5f7e; -fx-border-color: #1e3d59;" text="Client ID" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

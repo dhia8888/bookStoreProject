@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/1ALinfo3Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/Departement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/Enseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/EspritHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/EspritTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/SoceteHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/entities/SocieteTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/interfaces/GestionEnseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/interfaces/InterfaceSociete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/testEnseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ALinfo3Collections/src/pkg1alinfo3collections/testmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1Alinfo3JDBC/src/pkg1alinfo3jdbc/utils/SIngleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020_2021_GestionMagasin1Alinfo3/2020_2021_GestionMagasin1Alinfo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Auteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Editeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Facture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Gerant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Livre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Membre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Panier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/Proprietaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/Model/ligne_commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/service/service_Facture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/service/service_commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/service/service_ligne_commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/service/service_panier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore/src/utilitair/MyConnexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dashboard/Dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Serie2/Serie2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpMap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpMap/TpMap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/Book/src/main/java/Model/Auteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-api-streaming-master/streaming-example-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/javap1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/entities/Critere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/entities/Magasin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/entities/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/entities/ProduitFruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/entities/ProduitLegume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/tests/testprosite4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javap1/src/gestionmagasin/tests/testsProsit2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/Persone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map/map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/Dashboard/src/dashboard/main/hello.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/bookStoreProject-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/bookStoreProject-main/.idea/libraries/mysql_connector_java_5_1_23_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/bookStoreProject-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/bookStoreProject-main/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/bookStoreProject-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/.idea/libraries/mysql_connector_java_5_1_23_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/javafxBookStore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Controller/Admin/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Controller/Member/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/CommandeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/FactureInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/FeedbackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/LigneCommandeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/LivreInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/NotificationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/PanierInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Interfaces/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Auteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Edition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Facture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Gerant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Ligne_commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Livre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Membre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Panier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/Proprietaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/FactureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/LivreServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/PanierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/ServiceLigne_Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/Services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/utils/MyConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/Cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/Creditcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/addBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/addToCart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/addUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/checkOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/confirmCart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/homePage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/logo.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/modifyBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/modifyOrder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/mountain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/placeOrder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/publisher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/images/shoppingCart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/styles/alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/styles/dashboardStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/styles/loginStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/javafxBookStore/src/view/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled/src/sample/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled2/src/sample/StudentsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/images/avatar-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/images/avatar-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/images/avatar-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/images/avatar-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/images/avatar-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/images/line-chart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/main/Launch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/main/UI.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/main/UIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled4/src/main/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp/untitled5/untitled5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/untitled2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/sample/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/untitled4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FullStackEmpolyees/src/main/java/com/example/demo/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FullStackEmpolyees/src/main/java/com/example/demo/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FullStackEmpolyees/src/test/java/com/example/demo/api/EmployeeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FullStackEmpolyees/src/test/java/com/example/demo/api/EmployeeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javap1/src/prosite0.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javap1/src/prosite0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javap1/src/prosite1/magasin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javap1/src/prosite1/magasin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javap1/src/prosite1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javap1/src/prosite1/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javap1/src/prosite1/produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javap1/src/prosite1/produit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/td2/ex7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/td2/ex7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled3/src/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled3/src/ex1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1lWN7zWKbD8dhRACczqR6VyBzIK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/libery/mysql-connector-java-5.1.23-bin.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15722656" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Controller.Admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhia\Downloads\finalProjetFx\src\view" />
+      <recent name="C:\Users\dhia\Downloads\finalProjetFx\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainFx">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="finalProjetFx" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainFx" />
+      <module name="finalProjetFx" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="finalProjetFx" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainFx" />
+      <item itemvalue="Application.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainFx" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1607708736397" duration="1085000" />
+      <workItem from="1607709859716" duration="15090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2525" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1607711867850">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state x="2525" y="313" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607711867850" />
+    <state x="2517" y="482" key="DetectedRootsChooserDialog" timestamp="1607710221033">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state x="2517" y="482" key="DetectedRootsChooserDialog/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607710221033" />
+    <state x="2426" y="353" key="FileChooserDialogImpl" timestamp="1607710282207">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state x="2426" y="353" key="FileChooserDialogImpl/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607710282207" />
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1607725009186">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607725009186" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1607725009186">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607725009186" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1607725009186">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607725009186" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1607725009186">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607725009186" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1607714669539">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607714669539" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1607714669539">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607714669539" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1607714669538">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607714669538" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1607714669539">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607714669539" />
+    <state x="2200" y="186" key="SettingsEditor" timestamp="1607710285405">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state x="2200" y="186" key="SettingsEditor/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607710285405" />
+    <state x="2383" y="362" width="672" height="678" key="search.everywhere.popup" timestamp="1607717214626">
+      <screen x="1920" y="182" width="1600" height="860" />
+    </state>
+    <state x="2383" y="362" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.182.1600.860@1920.182.1600.860" timestamp="1607717214626" />
+  </component>
+</project>

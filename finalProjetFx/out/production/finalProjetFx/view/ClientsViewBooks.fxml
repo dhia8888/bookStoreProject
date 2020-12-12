@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Member.ClientsViewBooksController">
+    <children>
+        <VBox fx:id="vbListeL" layoutX="4.0" layoutY="200.0" prefHeight="496.0" prefWidth="1067.0" />
+        <ComboBox fx:id="cbGenre" layoutX="678.0" layoutY="169.0" prefWidth="150.0" />
+        <ComboBox fx:id="cbAuteur" layoutX="366.0" layoutY="169.0" prefWidth="150.0" />
+        <Label layoutX="596.0" layoutY="165.0" prefHeight="32.0" prefWidth="82.0" text="Genre :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+        <Label alignment="CENTER" layoutX="284.0" layoutY="168.0" prefHeight="26.0" prefWidth="82.0" text="Auteur :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+        <TextField fx:id="rechercherNomL" layoutX="866.0" layoutY="168.0" prefHeight="26.0" prefWidth="189.0" promptText="Rechercher par nom" />
+        <Button fx:id="btnReset" layoutX="22.0" layoutY="168.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="108.0" styleClass="red-btn" stylesheets="@styles/style.css" text="Reset" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="48.0" prefHeight="109.0" prefWidth="1058.0" text="Clients View Books" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <ImageView fx:id="panierId" fitHeight="89.0" fitWidth="48.0" layoutX="1023.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/addToCart.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

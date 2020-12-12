@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="bpEffectuerPaiement" prefHeight="409.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Member.PaiementController">
+   <top>
+      <ToolBar fx:id="tbEffectuerPaiement" prefHeight="50.0" prefWidth="472.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <items>
+            <Pane fx:id="paneEP" prefHeight="6.0" prefWidth="533.0" style="-fx-background-color: white;">
+               <children>
+                  <Label fx:id="labelTitre" layoutX="254.0" layoutY="-13.0" prefHeight="54.0" prefWidth="374.0" style="-fx-background-color: white;" text="Effectuer Paiement" textFill="#ab86ac">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </items>
+      </ToolBar>
+   </top>
+   <center>
+      <Pane fx:id="paneEFP" prefHeight="428.0" prefWidth="800.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="labelNomClient" alignment="CENTER" layoutX="71.0" layoutY="29.0" prefHeight="38.0" prefWidth="175.0" text="Email du client" textFill="#fafafa">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="boutonAdd" layoutX="324.0" layoutY="294.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="76.0" text="Valider">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="tfMailClient" alignment="CENTER" layoutX="324.0" layoutY="30.0" prefHeight="30.0" prefWidth="238.0" promptText="test@gmail.com" style="-fx-background-color: white;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfNumCarte" alignment="CENTER" layoutX="324.0" layoutY="85.0" prefHeight="34.0" prefWidth="238.0" promptText="XXXX XXXX XXXX XXXX" />
+            <TextField fx:id="tfCVC" alignment="CENTER" layoutX="324.0" layoutY="204.0" prefHeight="32.0" prefWidth="238.0" promptText="XXX" />
+            <Button fx:id="boutonCancel" layoutX="487.0" layoutY="294.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="76.0" text="Annuler">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelNumeroCarte" alignment="CENTER" layoutX="45.0" layoutY="83.0" prefHeight="38.0" prefWidth="227.0" text="Numéro de la carte" textFill="#faf5f5">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelDateExp" alignment="CENTER" layoutX="45.0" layoutY="143.0" prefHeight="38.0" prefWidth="227.0" text="Date d'expiration" textFill="#fdfcfc">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCodeCVC" alignment="CENTER" contentDisplay="CENTER" layoutX="45.0" layoutY="203.0" prefHeight="38.0" prefWidth="227.0" text="Code CVC" textFill="#ede6e6">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="236.0" layoutX="326.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/paypal-credit-card-logo-png-8.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="607.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/card.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="tfDateExpMois" layoutX="337.0" layoutY="150.0" prefHeight="25.0" prefWidth="76.0" />
+            <ComboBox fx:id="tfDateExpAnnee" layoutX="453.0" layoutY="150.0" prefHeight="25.0" prefWidth="111.0" />
+            <Label fx:id="lbDateExpMois" layoutX="352.0" layoutY="175.0" prefHeight="33.0" prefWidth="46.0" text="Mois" textFill="#fff8f8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="486.0" layoutY="175.0" prefHeight="33.0" prefWidth="46.0" text="Année" textFill="#fff8f8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="Montant" layoutX="603.0" layoutY="29.0" prefHeight="63.0" prefWidth="198.0" text="Montant à payer : " textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbErreur" alignment="CENTER" layoutX="61.0" layoutY="292.0" prefHeight="39.0" prefWidth="210.0" textFill="RED">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

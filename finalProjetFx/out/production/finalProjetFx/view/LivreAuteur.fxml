@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="340.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.LivreAuteurController">
+   <children>
+      <LineChart fx:id="linechart" prefHeight="350.0" prefWidth="600.0">
+        <xAxis>
+          <CategoryAxis fx:id="nomauteur" label="Auteurs" prefHeight="39.0" prefWidth="523.0" side="BOTTOM" tickLabelFill="WHITE">
+               <effect>
+                  <Bloom />
+               </effect>
+               <tickLabelFont>
+                  <Font size="17.0" />
+               </tickLabelFont></CategoryAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="nblivre" label="Nombre Livre" side="LEFT" tickLabelFill="WHITE">
+               <tickLabelFont>
+                  <Font size="13.0" />
+               </tickLabelFont>
+               <effect>
+                  <Bloom />
+               </effect></NumberAxis>
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

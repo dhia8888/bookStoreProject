@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1050.0" style="-fx-background-color: #02030A;" stylesheets="@styles/admin.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.AccueilController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="576.0" prefWidth="261.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="125.0" fitWidth="210.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 30;">
+               <image>
+                  <Image url="@images/logo_cannibals.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Glivres" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#LoadGLContent" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: transparent; -fx-translate-y: 62;" text="Gestion Livres" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icons8_Xbox_Menu_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button id="Membres" fx:id="Gcom" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#LoadGCContent" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: transparent; -fx-translate-y: 62;" text="Gestion Commandes" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icons8_Xbox_Menu_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="BtnExit" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#ExitWindow" prefHeight="49.0" prefWidth="259.0" style="-fx-background-color: transparent; -fx-translate-y: 60;" text="Exit" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icons8_Sign_Out_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <StackPane layoutX="258.0" prefHeight="576.0" prefWidth="793.0" style="-fx-background-color: #02030A;">
+         <children>
+            <Pane fx:id="pnlCustomer" prefHeight="200.0" prefWidth="200.0" />
+            <Pane fx:id="pnlOrders" prefHeight="200.0" prefWidth="200.0" />
+            <Pane fx:id="pnlMenus" prefHeight="200.0" prefWidth="200.0" />
+            <Pane fx:id="pnlOverview" prefHeight="576.0" prefWidth="805.0" style="-fx-background-image: url('https://i.imgur.com/OqH4GUk.jpg');">
+               <children>
+                  <Label alignment="CENTER" layoutX="189.0" layoutY="-2.0" prefHeight="43.0" prefWidth="428.0" text="A C C U E I L" textFill="#e7e5e5">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                     <effect>
+                        <Bloom />
+                     </effect>
+                  </Label>
+                  <AnchorPane fx:id="content" layoutX="3.0" layoutY="4.0" prefHeight="568.0" prefWidth="794.0" />
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+   <effect>
+      <DropShadow color="#1b1eeb" />
+   </effect>
+</AnchorPane>
